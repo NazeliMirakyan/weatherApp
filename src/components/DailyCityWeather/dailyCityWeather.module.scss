@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 75px 0 75px 0;
+
+  &_dailyWeather_items {
+    width: 100%;
+    max-width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+  }
+}

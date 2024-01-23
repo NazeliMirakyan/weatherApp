@@ -1,0 +1,20 @@
+.wrapper{
+    padding: 24px;
+    text-align: center;
+    &_city_name{
+        font-weight: 700;
+        font-size: 30px;
+        margin: 15px;
+    }
+    &_current_weather{
+        p, h3{
+            margin: 0;
+        }
+        
+        img{
+            width: 100%;
+            max-width: 90px;
+        }
+        
+    }
+}

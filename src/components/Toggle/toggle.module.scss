@@ -1,0 +1,11 @@
+.toggle_temp{
+    color: #fff;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+@media (max-width: 470px) {
+    .toggle_wrapper{
+        padding-top: 15px;
+    }
+}
